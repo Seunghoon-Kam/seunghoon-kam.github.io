@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Daily Quote Spark",
+        "icon": "💫",
+        "description": "매일 영감을 주는 명언과 격언을 제공하는 앱입니다.",
+        "appStoreUrl": "#",
+        "privacyPolicyUrl": "DailyQuoteSpark/privacy-policy.html"
+    },
+    {
+        "name": "English Pick Today",
+        "icon": "📚",
+        "description": "매일 영어 표현을 배울 수 있는 학습 앱입니다.",
+        "appStoreUrl": "#",
+        "privacyPolicyUrl": "EnglishPickToday/privacy-policy.html"
+    },
+    {
+        "name": "Fortune of Today",
+        "icon": "🔮",
+        "description": "오늘의 운세를 확인할 수 있는 앱입니다.",
+        "appStoreUrl": "#",
+        "privacyPolicyUrl": "fortuneoftoday/privacy_policy_fortune_of_today_en.html"
+    },
+    {
+        "name": "Simple URL iOS",
+        "icon": "🔗",
+        "description": "간단하고 빠른 URL 관리 앱입니다.",
+        "appStoreUrl": "#",
+        "privacyPolicyUrl": "SimpleURLiOS/privacy-policy.html"
+    }
+]
+
