@@ -114,7 +114,7 @@ main {
     width: 80px;
     height: 80px;
     border-radius: 18px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -23,16 +23,23 @@ const appsData = [
         "appStoreUrl": "https://apps.apple.com/app/fortune-of-today/id483993492"
     },
     {
-        "name": "Simple URL iOS",
+        "name": "SimpleURL - URL Shortener",
         "icon": "🔗",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/2b/99/522b9952-533f-48e4-0c78-75911426fc7c/AppIcon_Lite-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
-        "description": "간단하고 빠른 URL 관리 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/app/simpleurl/id492165840"
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/a0/ff/eca0ff53-3525-b679-f21a-c2d014637937/Placeholder.mill/400x400bb.webp",
+        "description": "URL 단축 및 QR 코드 생성 macOS 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl-url-shortener/id1521381018"
+    },
+    {
+        "name": "SimpleURL",
+        "icon": "🔗",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/a7/07/55a70704-9c99-1938-c1aa-6331eea17127/Placeholder.mill/400x400bb.webp",
+        "description": "긴 URL을 짧게 만들어 공유할 수 있는 iOS 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl/id492165840"
     },
     {
         "name": "타로 이야기",
         "icon": "🃏",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/d6/91/88d69134-4533-b6a9-239a-0aaae48a8b4e/AppIcon-0-0-1x_U007emarketing-0-5-85-220.jpeg/512x512bb.jpg",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/0e/48/600e4833-5a45-0635-bf4a-481ee7c6e7b3/Placeholder.mill/400x400bb.webp",
         "description": "타로 카드로 운세를 확인할 수 있는 앱입니다.",
         "appStoreUrl": "https://apps.apple.com/app/%ED%83%80%EB%A1%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/id491889640"
     },
@@ -42,6 +49,27 @@ const appsData = [
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/ea/f4/e8eaf4a7-d546-d9fb-bf98-2bdac7e93f3e/AppIcon_Lite-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "description": "베이킹 재료 변환과 타이머 기능을 제공하는 앱입니다.",
         "appStoreUrl": "https://apps.apple.com/app/baking-helper-lite/id518923971"
+    },
+    {
+        "name": "Base64 Studio",
+        "icon": "🔧",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/65/2e/13652e71-4d3e-ed3b-4c63-be428ae61a02/Placeholder.mill/400x400bb.webp",
+        "description": "Base64 인코딩/디코딩을 위한 macOS 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/base64-studio/id6749406098"
+    },
+    {
+        "name": "IconForgeX",
+        "icon": "🎨",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/3e/ef/bd3eef79-7fc7-eddc-df16-d7c002ff0a16/Placeholder.mill/400x400bb.webp",
+        "description": "iOS, iPadOS, watchOS, macOS, Android용 앱 아이콘을 생성하는 macOS 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/iconforgex/id6756529649"
+    },
+    {
+        "name": "Japanese Pick Today",
+        "icon": "🇯🇵",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/a8/90/16a890bb-7067-8284-4f01-4d8c12497340/Placeholder.mill/400x400bb.webp",
+        "description": "매일 일본어 표현을 배울 수 있는 학습 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/japanese-pick-today/id6756307057"
     }
 ];
 
