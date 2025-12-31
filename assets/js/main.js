@@ -23,6 +23,24 @@ const translations = {
 // 앱 데이터
 const appsData = [
     {
+        "name": "Tarot Story",
+        "nameKo": "타로 이야기",
+        "icon": "🃏",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/0e/48/600e4833-5a45-0635-bf4a-481ee7c6e7b3/Placeholder.mill/400x400bb.webp",
+        "description": "An app to check your fortune with tarot cards.",
+        "descriptionKo": "타로 카드로 운세를 확인할 수 있는 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/app/%ED%83%80%EB%A1%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/id491889640"
+    },
+    {
+        "name": "Fortune of Today",
+        "nameKo": "Fortune of Today",
+        "icon": "🔮",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/14/ec/0514ec6e-464c-9d9e-291c-419cbecc1100/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "description": "An app to check your daily fortune.",
+        "descriptionKo": "오늘의 운세를 확인할 수 있는 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/app/fortune-of-today/id483993492"
+    },
+    {
         "name": "Daily Quote Spark",
         "nameKo": "Daily Quote Spark",
         "icon": "💫",
@@ -42,13 +60,22 @@ const appsData = [
         "appStoreUrl": "https://apps.apple.com/app/english-pick-today/id6755547375"
     },
     {
-        "name": "Fortune of Today",
-        "nameKo": "Fortune of Today",
-        "icon": "🔮",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/14/ec/0514ec6e-464c-9d9e-291c-419cbecc1100/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
-        "description": "An app to check your daily fortune.",
-        "descriptionKo": "오늘의 운세를 확인할 수 있는 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/app/fortune-of-today/id483993492"
+        "name": "Korean Pick Today",
+        "nameKo": "Korean Pick Today",
+        "icon": "🇰🇷",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/ef/84/5def8454-0ea3-2e7f-b662-5bb9d87eb1ed/Placeholder.mill/400x400bb.webp",
+        "description": "A simple Korean vocabulary learning app that helps you learn one Korean word each day.",
+        "descriptionKo": "매일 한국어 단어를 하나씩 배울 수 있는 간단한 한국어 학습 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/korean-pick-today/id6757179905"
+    },
+    {
+        "name": "Japanese Pick Today",
+        "nameKo": "Japanese Pick Today",
+        "icon": "🇯🇵",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/a8/90/16a890bb-7067-8284-4f01-4d8c12497340/Placeholder.mill/400x400bb.webp",
+        "description": "A learning app to study Japanese expressions every day.",
+        "descriptionKo": "매일 일본어 표현을 배울 수 있는 학습 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/japanese-pick-today/id6756307057"
     },
     {
         "name": "SimpleURL - URL Shortener",
@@ -67,15 +94,6 @@ const appsData = [
         "description": "An iOS app to shorten long URLs and share them easily.",
         "descriptionKo": "긴 URL을 짧게 만들어 공유할 수 있는 iOS 앱입니다.",
         "appStoreUrl": "https://apps.apple.com/us/app/simpleurl/id492165840"
-    },
-    {
-        "name": "Tarot Story",
-        "nameKo": "타로 이야기",
-        "icon": "🃏",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/0e/48/600e4833-5a45-0635-bf4a-481ee7c6e7b3/Placeholder.mill/400x400bb.webp",
-        "description": "An app to check your fortune with tarot cards.",
-        "descriptionKo": "타로 카드로 운세를 확인할 수 있는 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/app/%ED%83%80%EB%A1%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/id491889640"
     },
     {
         "name": "Baking Helper",
@@ -103,15 +121,6 @@ const appsData = [
         "description": "A macOS app to generate app icons for iOS, iPadOS, watchOS, macOS, and Android.",
         "descriptionKo": "iOS, iPadOS, watchOS, macOS, Android용 앱 아이콘을 생성하는 macOS 앱입니다.",
         "appStoreUrl": "https://apps.apple.com/us/app/iconforgex/id6756529649"
-    },
-    {
-        "name": "Japanese Pick Today",
-        "nameKo": "Japanese Pick Today",
-        "icon": "🇯🇵",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/a8/90/16a890bb-7067-8284-4f01-4d8c12497340/Placeholder.mill/400x400bb.webp",
-        "description": "A learning app to study Japanese expressions every day.",
-        "descriptionKo": "매일 일본어 표현을 배울 수 있는 학습 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/us/app/japanese-pick-today/id6756307057"
     }
 ];
 
