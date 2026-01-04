@@ -159,7 +159,11 @@ main {
     box-shadow: var(--shadow-lg);
 }
 
-.app-card[style*="cursor: pointer"]:hover {
+.app-card.clickable {
+    cursor: pointer;
+}
+
+.app-card.clickable:hover {
     border-color: var(--primary-color);
 }
 

@@ -1,10 +1,11 @@
-// 언어 감지 (기본값: 영어)
+// Vue.js 앱 생성
+const { createApp } = Vue;
+
+// 언어 감지 함수 (기본값: 영어)
 function getLanguage() {
     const browserLang = navigator.language || navigator.userLanguage;
     return browserLang.startsWith('ko') ? 'ko' : 'en';
 }
-
-const currentLang = getLanguage();
 
 // 다국어 텍스트
 const translations = {
@@ -33,7 +34,7 @@ const appsData = [
     },
     {
         "name": "Fortune of Today",
-        "nameKo": "Fortune of Today",
+        "nameKo": "오늘의 운세",
         "icon": "🔮",
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/14/ec/0514ec6e-464c-9d9e-291c-419cbecc1100/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
         "description": "An app to check your daily fortune.",
@@ -42,7 +43,7 @@ const appsData = [
     },
     {
         "name": "Daily Quote Spark",
-        "nameKo": "Daily Quote Spark",
+        "nameKo": "오늘의 한줄명언",
         "icon": "💫",
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/e7/32/6de73255-5918-d5d7-7a21-15a7629b0d6c/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "description": "An app that provides inspiring quotes and sayings every day.",
@@ -52,7 +53,7 @@ const appsData = [
     },
     {
         "name": "English Pick Today",
-        "nameKo": "English Pick Today",
+        "nameKo": "오늘의 영어픽",
         "icon": "📚",
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/d1/ea/3ad1eaf9-acbc-11b1-2279-b704055fcbd6/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "description": "A learning app to study English expressions every day.",
@@ -61,7 +62,7 @@ const appsData = [
     },
     {
         "name": "Korean Pick Today",
-        "nameKo": "Korean Pick Today",
+        "nameKo": "오늘의 한국어픽",
         "icon": "🇰🇷",
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/ef/84/5def8454-0ea3-2e7f-b662-5bb9d87eb1ed/Placeholder.mill/400x400bb.webp",
         "description": "A simple Korean vocabulary learning app that helps you learn one Korean word each day.",
@@ -70,7 +71,7 @@ const appsData = [
     },
     {
         "name": "Japanese Pick Today",
-        "nameKo": "Japanese Pick Today",
+        "nameKo": "오늘의 일본어픽",
         "icon": "🇯🇵",
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/a8/90/16a890bb-7067-8284-4f01-4d8c12497340/Placeholder.mill/400x400bb.webp",
         "description": "A learning app to study Japanese expressions every day.",
@@ -124,81 +125,42 @@ const appsData = [
     }
 ];
 
-// 언어 설정 적용
-function applyLanguage() {
-    document.documentElement.lang = currentLang;
-    const subtitle = document.querySelector('.subtitle');
-    if (subtitle) {
-        subtitle.textContent = translations[currentLang].subtitle;
-    }
-}
-
-// 앱 데이터를 로드하고 화면에 표시
-function loadApps() {
-    const container = document.getElementById('apps-container');
-    
-    if (!container) {
-        console.error('apps-container를 찾을 수 없습니다.');
-        return;
-    }
-    
-    appsData.forEach(app => {
-        const card = createAppCard(app);
-        container.appendChild(card);
-    });
-}
-
-function createAppCard(app) {
-    const card = document.createElement('div');
-    card.className = 'app-card';
-    
-    const name = currentLang === 'ko' && app.nameKo ? app.nameKo : (app.name || translations[currentLang].appName);
-    const description = currentLang === 'ko' && app.descriptionKo ? app.descriptionKo : (app.description || translations[currentLang].appDescription);
-    const appStoreUrl = app.appStoreUrl || '#';
-    const playStoreUrl = app.playStoreUrl || '#';
-    const appIconUrl = app.appIconUrl || '';
-    const fallbackIcon = app.icon || app.name.charAt(0).toUpperCase();
-    
-    // 앱 아이콘 HTML 생성
-    let iconHTML = '';
-    if (appIconUrl) {
-        iconHTML = `<img src="${appIconUrl}" alt="${name} 아이콘" class="app-icon-img" onerror="this.parentElement.innerHTML='${fallbackIcon}'">`;
-    } else {
-        iconHTML = `<span class="app-icon-fallback">${fallbackIcon}</span>`;
-    }
-    
-    // App Store 또는 Play Store URL이 있으면 카드 전체를 클릭 가능하게 만들기
-    const primaryUrl = appStoreUrl !== '#' ? appStoreUrl : (playStoreUrl !== '#' ? playStoreUrl : '#');
-    if (primaryUrl !== '#') {
-        card.style.cursor = 'pointer';
-        card.addEventListener('click', (e) => {
-            // 버튼 클릭이 아닌 경우에만 카드 클릭 처리
-            if (!e.target.closest('.btn, .app-links')) {
+// Vue 앱 생성
+createApp({
+    data() {
+        return {
+            currentLang: getLanguage(),
+            translations: translations,
+            appsData: appsData
+        };
+    },
+    mounted() {
+        // HTML lang 속성 설정
+        document.documentElement.lang = this.currentLang;
+    },
+    methods: {
+        getAppName(app) {
+            return (this.currentLang === 'ko' && app.nameKo) ? app.nameKo : (app.name || this.translations[this.currentLang].appName);
+        },
+        getAppDescription(app) {
+            return (this.currentLang === 'ko' && app.descriptionKo) ? app.descriptionKo : (app.description || this.translations[this.currentLang].appDescription);
+        },
+        handleCardClick(app, event) {
+            // 버튼이나 링크 클릭이 아닌 경우에만 카드 클릭 처리
+            if (event.target.closest('.btn, .app-links, .app-icon-link')) {
+                return;
+            }
+            
+            const primaryUrl = app.appStoreUrl || app.playStoreUrl;
+            if (primaryUrl) {
                 window.open(primaryUrl, '_blank');
             }
-        });
+        },
+        handleImageError(event, app) {
+            // 이미지 로드 실패 시 fallback 아이콘 표시
+            const iconElement = event.target.parentElement;
+            const fallbackIcon = app.icon || this.getAppName(app).charAt(0).toUpperCase();
+            iconElement.innerHTML = `<span class="app-icon-fallback">${fallbackIcon}</span>`;
+        }
     }
-    
-    card.innerHTML = `
-        <a href="${appStoreUrl !== '#' ? appStoreUrl : '#'}" ${appStoreUrl !== '#' ? 'target="_blank"' : ''} class="app-icon-link" ${appStoreUrl === '#' ? 'onclick="return false;"' : ''}>
-            <div class="app-icon">
-                ${iconHTML}
-            </div>
-        </a>
-        <h3>${name}</h3>
-        <p>${description}</p>
-        <div class="app-links">
-            ${appStoreUrl !== '#' ? `<a href="${appStoreUrl}" target="_blank" class="btn btn-primary">App Store</a>` : ''}
-            ${playStoreUrl !== '#' ? `<a href="${playStoreUrl}" target="_blank" class="btn btn-primary">Google Play</a>` : ''}
-        </div>
-    `;
-    
-    return card;
-}
-
-// 페이지 로드 시 언어 설정 및 앱 데이터 로드
-document.addEventListener('DOMContentLoaded', () => {
-    applyLanguage();
-    loadApps();
-});
-
+}).mount('#app');
