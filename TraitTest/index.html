@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraitTest – Big Five Personality Test</title>
+    <meta name="description" content="TraitTest is an entertainment app for self-understanding. Discover your personality traits with a Big Five based test.">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background: #fafafa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .landing {
+            width: 100%;
+            max-width: 420px;
+            text-align: center;
+        }
+
+        .app-name {
+            margin: 0 0 4px;
+            font-size: clamp(1.75rem, 5vw, 2.25rem);
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #111;
+        }
+
+        .sub {
+            margin: 0 0 16px;
+            font-size: 1rem;
+            font-weight: 500;
+            color: #555;
+        }
+
+        .desc {
+            margin: 0 0 32px;
+            font-size: 0.9375rem;
+            color: #444;
+            max-width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            align-items: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            min-height: 52px;
+            padding: 14px 24px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: #fff;
+            background: #333;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.15s ease;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-app {
+            background: #000;
+        }
+
+        .btn-play {
+            background: #1a73e8;
+        }
+
+        .btn-app:hover,
+        .btn-app:focus-visible {
+            background: #222;
+        }
+
+        .btn-play:hover,
+        .btn-play:focus-visible {
+            background: #1557b0;
+        }
+
+        .btn.highlight {
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-play.highlight {
+            box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.35);
+        }
+
+        @media (min-width: 480px) {
+            .buttons {
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .btn {
+                width: auto;
+                min-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="landing">
+        <h1 class="app-name">TraitTest</h1>
+        <p class="sub">Big Five Personality Test</p>
+        <p class="desc">Discover your personality traits with a Big Five based test.</p>
+        <div class="buttons">
+            <a href="https://apps.apple.com/us/app/traittest-big-five-mbti/id6758102524" target="_blank" rel="noopener noreferrer" class="btn btn-app" id="btn-app" aria-label="Download on the App Store">Download on the App Store</a>
+            <a href="https://play.google.com/store/apps/details?id=kam.app.traittest" target="_blank" rel="noopener noreferrer" class="btn btn-play" id="btn-play" aria-label="Get it on Google Play">Get it on Google Play</a>
+        </div>
+    </main>
+
+    <script>
+        (function () {
+            var ua = typeof navigator !== 'undefined' ? navigator.userAgent : '';
+            var btnApp = document.getElementById('btn-app');
+            var btnPlay = document.getElementById('btn-play');
+            if (!btnApp || !btnPlay) return;
+
+            if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+                btnApp.classList.add('highlight');
+            } else if (/Android/.test(ua)) {
+                btnPlay.classList.add('highlight');
+            }
+        })();
+    </script>
+</body>
+</html>
