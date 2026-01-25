@@ -24,6 +24,16 @@ const translations = {
 // 앱 데이터
 const appsData = [
     {
+        "name": "TraitTest - Big Five, MBTI",
+        "nameKo": "내 성격 성향 검사 - Big Five, MBTI",
+        "icon": "🧠",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/b0/6b/33b06b1b-e7fc-f459-58df-3146cfb8d180/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "Personality test based on the Big Five model. Choose 50 or 100 questions, get clear trait breakdown and optional MBTI-style type, with visual charts and shareable result image with QR code. For self-understanding and entertainment only.",
+        "descriptionKo": "빅파이브 성격 모델 기반 성격 테스트. 50문항/100문항 선택, 트레이트 분석과 MBTI 스타일 유형, 차트와 QR 코드가 있는 공유용 결과 이미지를 제공합니다. 자기 이해 및 엔터테인먼트 목적입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/traittest-big-five-mbti/id6758102524",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.traittest"
+    },
+    {
         "name": "Tarot Story",
         "nameKo": "타로 이야기",
         "icon": "🃏",
