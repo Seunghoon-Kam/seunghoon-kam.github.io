@@ -49,7 +49,8 @@ const appsData = [
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/14/ec/0514ec6e-464c-9d9e-291c-419cbecc1100/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
         "description": "An app to check your daily fortune.",
         "descriptionKo": "오늘의 운세를 확인할 수 있는 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/app/fortune-of-today/id483993492"
+        "appStoreUrl": "https://apps.apple.com/app/fortune-of-today/id483993492",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.fortuneoftoday"
     },
     {
         "name": "Daily Quote Spark",
