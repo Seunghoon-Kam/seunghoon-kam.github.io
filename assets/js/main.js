@@ -114,7 +114,8 @@ const appsData = [
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/ea/f4/e8eaf4a7-d546-d9fb-bf98-2bdac7e93f3e/AppIcon_Lite-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
         "description": "A macOS app for baking ingredient conversion and timer features.",
         "descriptionKo": "베이킹 재료 변환과 타이머 기능을 제공하는 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/app/baking-helper-lite/id518923971"
+        "appStoreUrl": "https://apps.apple.com/app/baking-helper-lite/id518923971",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.baking_helper_flutter"
     },
     {
         "name": "Base64 Studio",
