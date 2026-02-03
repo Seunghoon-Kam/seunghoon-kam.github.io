@@ -90,6 +90,26 @@ const appsData = [
         "appStoreUrl": "https://apps.apple.com/us/app/japanese-pick-today/id6756307057"
     },
     {
+        "name": "SimpleURL",
+        "nameKo": "SimpleURL",
+        "icon": "🔗",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/a7/07/55a70704-9c99-1938-c1aa-6331eea17127/Placeholder.mill/400x400bb.webp",
+        "description": "An iOS app to shorten long URLs and share them easily.",
+        "descriptionKo": "긴 URL을 짧게 만들어 공유할 수 있는 iOS 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl/id492165840",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.simpleurl"
+    },
+    {
+        "name": "Baking Helper",
+        "nameKo": "베이킹 도우미",
+        "icon": "🍰",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/ea/f4/e8eaf4a7-d546-d9fb-bf98-2bdac7e93f3e/AppIcon_Lite-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "An iOS and Android app for baking ingredient conversion and timer features.",
+        "descriptionKo": "베이킹 재료 변환과 타이머 기능을 제공하는 iOS·Android 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/app/baking-helper-lite/id518923971",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.baking_helper_flutter"
+    },
+    {
         "name": "SimpleURL - URL Shortener",
         "nameKo": "SimpleURL - URL Shortener",
         "icon": "🔗",
@@ -97,25 +117,6 @@ const appsData = [
         "description": "A macOS app for URL shortening and QR code generation.",
         "descriptionKo": "URL 단축 및 QR 코드 생성 macOS 앱입니다.",
         "appStoreUrl": "https://apps.apple.com/us/app/simpleurl-url-shortener/id1521381018"
-    },
-    {
-        "name": "SimpleURL",
-        "nameKo": "SimpleURL",
-        "icon": "🔗",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/a7/07/55a70704-9c99-1938-c1aa-6331eea17127/Placeholder.mill/400x400bb.webp",
-        "description": "An iOS app to shorten long URLs and share them easily.",
-        "descriptionKo": "긴 URL을 짧게 만들어 공유할 수 있는 iOS 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl/id492165840"
-    },
-    {
-        "name": "Baking Helper",
-        "nameKo": "베이킹 도우미",
-        "icon": "🍰",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e8/ea/f4/e8eaf4a7-d546-d9fb-bf98-2bdac7e93f3e/AppIcon_Lite-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-        "description": "A macOS app for baking ingredient conversion and timer features.",
-        "descriptionKo": "베이킹 재료 변환과 타이머 기능을 제공하는 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/app/baking-helper-lite/id518923971",
-        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.baking_helper_flutter"
     },
     {
         "name": "Base64 Studio",
