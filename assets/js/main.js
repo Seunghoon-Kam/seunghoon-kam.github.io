@@ -63,6 +63,16 @@ const appsData = [
         "playStoreUrl": "https://play.google.com/store/apps/details?id=com.dailyquotespark"
     },
     {
+        "name": "Proverb of the Day",
+        "nameKo": "오늘의 속담",
+        "icon": "📜",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9b/69/ca/9b69cae9-6fde-f160-1669-2e3a95d4b92d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "Start your day with a proverb. Get a daily proverb notification and learn its meaning with a short explanation and an optional quiz.",
+        "descriptionKo": "매일 속담 알림과 간단한 설명, 선택 퀴즈로 지혜를 배우는 앱입니다.",
+        "appStoreUrl": "https://apps.apple.com/app/proverb-of-the-day/id6758769834",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.proverboftheday"
+    },
+    {
         "name": "English Pick Today",
         "nameKo": "오늘의 영어픽",
         "icon": "📚",
