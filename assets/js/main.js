@@ -40,7 +40,8 @@ const appsData = [
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/60/0e/48/600e4833-5a45-0635-bf4a-481ee7c6e7b3/Placeholder.mill/400x400bb.webp",
         "description": "An app to check your fortune with tarot cards.",
         "descriptionKo": "타로 카드로 운세를 확인할 수 있는 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/app/%ED%83%80%EB%A1%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/id491889640"
+        "appStoreUrl": "https://apps.apple.com/app/%ED%83%80%EB%A1%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/id491889640",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.tarotstory"
     },
     {
         "name": "Fortune of Today",
