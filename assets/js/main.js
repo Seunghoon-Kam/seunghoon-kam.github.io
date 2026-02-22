@@ -44,6 +44,15 @@ const appsData = [
         "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.tarotstory"
     },
     {
+        "name": "Answer Key - The Answer Deck",
+        "nameKo": "Answer Key - 해결의 카드",
+        "icon": "🃏",
+        "appIconUrl": "https://play-lh.googleusercontent.com/BO0KQ4YDk4hIuE298E7s0HOEnw9d3uH3rCRVRNAZwGzTFDpHWk0AIkpTsgVZbfp7qgIVu88uXDybHdPxEmG2=w512-h512",
+        "description": "An intuitive answer-based card app. Draw a single card and get clear guidance—no complex readings, just simple insight when you need it.",
+        "descriptionKo": "한 장의 카드를 뽑아 명확한 가이드를 받는 직관적인 답장 카드 앱입니다. 복잡한 해석 없이 필요한 순간 간단한 통찰을 제공합니다.",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.answerkey"
+    },
+    {
         "name": "Fortune of Today",
         "nameKo": "오늘의 운세",
         "icon": "🔮",
@@ -127,7 +136,8 @@ const appsData = [
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/a0/ff/eca0ff53-3525-b679-f21a-c2d014637937/Placeholder.mill/400x400bb.webp",
         "description": "A macOS app for URL shortening and QR code generation.",
         "descriptionKo": "URL 단축 및 QR 코드 생성 macOS 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl-url-shortener/id1521381018"
+        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl-url-shortener/id1521381018",
+        "appStorePlatform": "macos"
     },
     {
         "name": "Base64 Studio",
@@ -136,7 +146,8 @@ const appsData = [
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/65/2e/13652e71-4d3e-ed3b-4c63-be428ae61a02/Placeholder.mill/400x400bb.webp",
         "description": "A macOS app for Base64 encoding and decoding.",
         "descriptionKo": "Base64 인코딩/디코딩을 위한 macOS 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/us/app/base64-studio/id6749406098"
+        "appStoreUrl": "https://apps.apple.com/us/app/base64-studio/id6749406098",
+        "appStorePlatform": "macos"
     },
     {
         "name": "IconForgeX",
@@ -145,7 +156,8 @@ const appsData = [
         "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bd/3e/ef/bd3eef79-7fc7-eddc-df16-d7c002ff0a16/Placeholder.mill/400x400bb.webp",
         "description": "A macOS app to generate app icons for iOS, iPadOS, watchOS, macOS, and Android.",
         "descriptionKo": "iOS, iPadOS, watchOS, macOS, Android용 앱 아이콘을 생성하는 macOS 앱입니다.",
-        "appStoreUrl": "https://apps.apple.com/us/app/iconforgex/id6756529649"
+        "appStoreUrl": "https://apps.apple.com/us/app/iconforgex/id6756529649",
+        "appStorePlatform": "macos"
     }
 ];
 
@@ -168,6 +180,9 @@ createApp({
         },
         getAppDescription(app) {
             return (this.currentLang === 'ko' && app.descriptionKo) ? app.descriptionKo : (app.description || this.translations[this.currentLang].appDescription);
+        },
+        getAppStoreLabel(app) {
+            return (app.appStorePlatform === 'macos') ? 'macOS' : 'iOS';
         },
         handleCardClick(app, event) {
             // 버튼이나 링크 클릭이 아닌 경우에만 카드 클릭 처리

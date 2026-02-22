@@ -70,7 +70,7 @@
                                 target="_blank" 
                                 class="btn btn-primary"
                             >
-                                App Store
+                                {{ getAppStoreLabel(app) }}
                             </a>
                             <a 
                                 v-if="app.playStoreUrl"
@@ -78,7 +78,7 @@
                                 target="_blank" 
                                 class="btn btn-primary"
                             >
-                                Google Play
+                                Android
                             </a>
                         </div>
                     </div>
