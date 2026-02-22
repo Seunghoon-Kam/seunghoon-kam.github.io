@@ -1,4 +1,8 @@
-// Vue.js 앱 생성
+// Vue.js 로드 확인 (CDN 실패 시 안내 메시지)
+if (typeof Vue === 'undefined') {
+    document.getElementById('app').innerHTML = '<div style="padding:2rem;text-align:center;font-family:sans-serif;"><p>Failed to load Vue. Check your connection or try again later.</p><p>Vue를 불러오지 못했습니다. 네트워크를 확인하거나 나중에 다시 시도해 주세요.</p></div>';
+    throw new Error('Vue is not loaded');
+}
 const { createApp } = Vue;
 
 // 언어 감지 함수 (기본값: 영어)
