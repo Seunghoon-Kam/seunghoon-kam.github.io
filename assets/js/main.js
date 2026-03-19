@@ -28,6 +28,16 @@ const translations = {
 // 앱 데이터
 const appsData = [
     {
+        "name": "Lumi Bible - AI Translated",
+        "nameKo": "루미 바이블 - AI 번역",
+        "icon": "📖",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/dc/a1/55dca14a-7c7b-5599-5413-45110f3e5a90/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "A modern Bible app with AI-powered translation and audio features. Read, listen, search fast, bookmark verses, and enjoy a clean reading experience.",
+        "descriptionKo": "AI 번역과 오디오 기능을 제공하는 성경 앱입니다. 읽기/듣기, 빠른 검색, 북마크, 깔끔한 읽기 화면을 지원합니다.",
+        "appStoreUrl": "https://apps.apple.com/app/lumi-bible-ai-translated/id6760752631",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.lumibible"
+    },
+    {
         "name": "TraitTest - Big Five, MBTI",
         "nameKo": "내 성격 성향 검사 - Big Five, MBTI",
         "icon": "🧠",
@@ -46,15 +56,6 @@ const appsData = [
         "descriptionKo": "타로 카드로 운세를 확인할 수 있는 앱입니다.",
         "appStoreUrl": "https://apps.apple.com/app/%ED%83%80%EB%A1%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/id491889640",
         "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.tarotstory"
-    },
-    {
-        "name": "Answer Key - The Answer Deck",
-        "nameKo": "Answer Key - 해결의 카드",
-        "icon": "🃏",
-        "appIconUrl": "https://play-lh.googleusercontent.com/BO0KQ4YDk4hIuE298E7s0HOEnw9d3uH3rCRVRNAZwGzTFDpHWk0AIkpTsgVZbfp7qgIVu88uXDybHdPxEmG2=w512-h512",
-        "description": "An intuitive answer-based card app. Draw a single card and get clear guidance—no complex readings, just simple insight when you need it.",
-        "descriptionKo": "한 장의 카드를 뽑아 명확한 가이드를 받는 직관적인 답장 카드 앱입니다. 복잡한 해석 없이 필요한 순간 간단한 통찰을 제공합니다.",
-        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.answerkey"
     },
     {
         "name": "Fortune of Today",
@@ -85,6 +86,15 @@ const appsData = [
         "descriptionKo": "매일 속담 알림과 간단한 설명, 선택 퀴즈로 지혜를 배우는 앱입니다.",
         "appStoreUrl": "https://apps.apple.com/app/proverb-of-the-day/id6758769834",
         "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.proverboftheday"
+    },
+    {
+        "name": "Answer Key - The Answer Deck",
+        "nameKo": "Answer Key - 해결의 카드",
+        "icon": "🃏",
+        "appIconUrl": "https://play-lh.googleusercontent.com/BO0KQ4YDk4hIuE298E7s0HOEnw9d3uH3rCRVRNAZwGzTFDpHWk0AIkpTsgVZbfp7qgIVu88uXDybHdPxEmG2=w512-h512",
+        "description": "An intuitive answer-based card app. Draw a single card and get clear guidance—no complex readings, just simple insight when you need it.",
+        "descriptionKo": "한 장의 카드를 뽑아 명확한 가이드를 받는 직관적인 답장 카드 앱입니다. 복잡한 해석 없이 필요한 순간 간단한 통찰을 제공합니다.",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.answerkey"
     },
     {
         "name": "English Pick Today",
