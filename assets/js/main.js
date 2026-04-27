@@ -58,6 +58,16 @@ const appsData = [
         "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.tarotstory"
     },
     {
+        "name": "Ladder Game I Always Win",
+        "nameKo": "나만 이기는 사다리",
+        "icon": "🪜",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/a7/50/0ea75019-8896-b642-df57-adf0db8ca811/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "A casual ladder game—draw the ladder, play for fun, and use a simple trick so you can always end up the winner.",
+        "descriptionKo": "사다리를 그리며 즐기는 가벼운 보드 게임입니다. 나만 이기는 간단한 방법이 있어 원하는 결과로 마칠 수 있어요.",
+        "appStoreUrl": "https://apps.apple.com/app/ladder-game-i-always-win/id603396325",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.laddergame"
+    },
+    {
         "name": "Fortune of Today",
         "nameKo": "오늘의 운세",
         "icon": "🔮",
