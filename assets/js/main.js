@@ -28,6 +28,16 @@ const translations = {
 // 앱 데이터
 const appsData = [
     {
+        "name": "Sudoku Heaven - Daily Puzzle",
+        "nameKo": "스도쿠 헤븐",
+        "icon": "🔢",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/a8/fe/94a8fece-de03-f2f7-52ef-1b54da2f24ea/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+        "description": "A clean, focused classic Sudoku app for relaxing daily play. Choose from Easy to Master and enjoy logical puzzles at your own pace.",
+        "descriptionKo": "깔끔한 클래식 스도쿠 퍼즐 앱입니다. 쉬움부터 마스터까지 난이도를 고르고, 매일 편하게 논리 퍼즐을 즐길 수 있어요.",
+        "appStoreUrl": "https://apps.apple.com/app/sudoku-heaven-daily-puzzle/id6770051890",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.sudokuheaven"
+    },
+    {
         "name": "Lumi Bible - AI Translated",
         "nameKo": "루미 바이블 - AI 번역",
         "icon": "📖",
