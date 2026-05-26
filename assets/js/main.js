@@ -38,6 +38,16 @@ const appsData = [
         "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.sudokuheaven"
     },
     {
+        "name": "Stone Grid - Gomoku",
+        "nameKo": "스톤 그리드 - 오목",
+        "icon": "⚫️",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/00/11/1d001113-5a02-877b-1b68-8efc23711372/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "A clean, focused Gomoku board game. Play vs AI or local 2-player and connect exactly five in a row to win.",
+        "descriptionKo": "깔끔한 오목 보드 게임입니다. AI 대전 또는 로컬 2인 플레이로 정확히 5목을 먼저 완성해 보세요.",
+        "appStoreUrl": "https://apps.apple.com/app/stone-grid-gomoku/id6772341849",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.stonegrid.gomoku"
+    },
+    {
         "name": "Lumi Bible - AI Translated",
         "nameKo": "루미 바이블 - AI 번역",
         "icon": "📖",
