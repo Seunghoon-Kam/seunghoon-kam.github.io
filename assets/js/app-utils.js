@@ -10,6 +10,7 @@ const translations = {
         appDescription: "No description available.",
         backToApps: "Back to Apps",
         downloadOn: "Download on",
+        screenshots: "Screenshots",
         appNotFound: "App not found",
         appNotFoundMessage: "The app you are looking for does not exist or has been removed."
     },
@@ -19,6 +20,7 @@ const translations = {
         appDescription: "앱 설명이 없습니다.",
         backToApps: "앱 목록으로",
         downloadOn: "다운로드",
+        screenshots: "스크린샷",
         appNotFound: "앱을 찾을 수 없습니다",
         appNotFoundMessage: "요청하신 앱이 존재하지 않거나 삭제되었습니다."
     }

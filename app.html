@@ -52,6 +52,19 @@
                             </div>
                         </div>
                     </div>
+                    <div v-if="app.screenshots && app.screenshots.length" class="app-detail-screenshots">
+                        <h2>{{ translations[currentLang].screenshots }}</h2>
+                        <div class="screenshot-scroll">
+                            <img
+                                v-for="(shot, index) in app.screenshots"
+                                :key="shot"
+                                :src="shot"
+                                :alt="appName + ' screenshot ' + (index + 1)"
+                                class="screenshot-img"
+                                loading="lazy"
+                            />
+                        </div>
+                    </div>
                     <p class="app-detail-description">{{ appDescription }}</p>
                 </section>
 

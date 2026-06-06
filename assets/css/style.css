@@ -347,6 +347,47 @@ footer a:hover {
     line-height: 1.2;
 }
 
+.app-detail-screenshots {
+    margin-bottom: 32px;
+}
+
+.app-detail-screenshots h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+
+.screenshot-scroll {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.screenshot-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.screenshot-scroll::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+}
+
+.screenshot-img {
+    flex: 0 0 auto;
+    height: 360px;
+    width: auto;
+    border-radius: 16px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    scroll-snap-align: start;
+    object-fit: cover;
+    background: var(--bg-light);
+}
+
 .app-detail-description {
     font-size: 1.125rem;
     color: var(--text-light);
@@ -429,6 +470,10 @@ footer a:hover {
     .app-detail-info h1 {
         font-size: 1.35rem;
         margin-bottom: 12px;
+    }
+
+    .screenshot-img {
+        height: 280px;
     }
 
     .app-detail-description {
