@@ -18,38 +18,42 @@
         <main>
             <div class="container">
                 <section v-if="app" class="app-detail">
-                    <div class="app-detail-icon">
-                        <img
-                            v-if="app.appIconUrl"
-                            :src="app.appIconUrl"
-                            :alt="appName + ' icon'"
-                            class="app-detail-icon-img"
-                            @error="handleImageError($event)"
-                        />
-                        <span v-else class="app-icon-fallback app-detail-icon-fallback">{{ app.icon || appName.charAt(0).toUpperCase() }}</span>
+                    <div class="app-detail-header">
+                        <div class="app-detail-icon">
+                            <img
+                                v-if="app.appIconUrl"
+                                :src="app.appIconUrl"
+                                :alt="appName + ' icon'"
+                                class="app-detail-icon-img"
+                                @error="handleImageError($event)"
+                            />
+                            <span v-else class="app-icon-fallback app-detail-icon-fallback">{{ app.icon || appName.charAt(0).toUpperCase() }}</span>
+                        </div>
+                        <div class="app-detail-info">
+                            <h1>{{ appName }}</h1>
+                            <div class="app-detail-links">
+                                <a
+                                    v-if="app.appStoreUrl"
+                                    :href="app.appStoreUrl"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn-primary"
+                                >
+                                    {{ getAppStoreLabel(app) }}
+                                </a>
+                                <a
+                                    v-if="app.playStoreUrl"
+                                    :href="app.playStoreUrl"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="btn btn-primary"
+                                >
+                                    Android
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <h1>{{ appName }}</h1>
                     <p class="app-detail-description">{{ appDescription }}</p>
-                    <div class="app-detail-links">
-                        <a
-                            v-if="app.appStoreUrl"
-                            :href="app.appStoreUrl"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="btn btn-primary btn-lg"
-                        >
-                            {{ getAppStoreLabel(app) }}
-                        </a>
-                        <a
-                            v-if="app.playStoreUrl"
-                            :href="app.playStoreUrl"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="btn btn-primary btn-lg"
-                        >
-                            Android
-                        </a>
-                    </div>
                 </section>
 
                 <section v-else class="app-not-found">

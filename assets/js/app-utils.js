@@ -34,6 +34,17 @@ function getAppDescription(app, lang) {
     return (currentLang === 'ko' && app.descriptionKo) ? app.descriptionKo : (app.description || translations[currentLang].appDescription);
 }
 
+function getAppStoreDescription(app, lang) {
+    const currentLang = lang || getLanguage();
+    if (currentLang === 'ko' && app.storeDescriptionKo) {
+        return app.storeDescriptionKo;
+    }
+    if (app.storeDescription) {
+        return app.storeDescription;
+    }
+    return getAppDescription(app, lang);
+}
+
 function getAppStoreLabel(app) {
     return (app.appStorePlatform === 'macos') ? 'macOS' : 'iOS';
 }

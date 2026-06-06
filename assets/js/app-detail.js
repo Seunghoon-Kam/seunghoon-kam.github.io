@@ -20,7 +20,7 @@ createApp({
             return this.app ? getAppName(this.app, this.currentLang) : '';
         },
         appDescription() {
-            return this.app ? getAppDescription(this.app, this.currentLang) : '';
+            return this.app ? getAppStoreDescription(this.app, this.currentLang) : '';
         },
         pageTitle() {
             if (this.app) {
