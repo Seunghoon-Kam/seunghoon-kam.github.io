@@ -28,18 +28,18 @@ const appsData = [
         "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.stonegrid.gomoku"
     },
     {
-        "slug": "lumi-bible",
-        "name": "Lumi Bible - AI Translated",
-        "nameKo": "루미 바이블 - AI 번역",
-        "icon": "📖",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/dc/a1/55dca14a-7c7b-5599-5413-45110f3e5a90/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
-        "description": "A modern Bible app with AI-powered translation and audio features. Read, listen, search fast, bookmark verses, and enjoy a clean reading experience.",
-        "descriptionKo": "AI 번역과 오디오 기능을 제공하는 성경 앱입니다. 읽기/듣기, 빠른 검색, 북마크, 깔끔한 읽기 화면을 지원합니다.",
-        "storeDescription": "Lumi AI Bible is a modern Bible app with AI-powered translation and audio features.\n\nRead, listen, and understand the Bible more easily.\n\nKey Features\n\n• AI Translated Bible\nEnjoy a natural and easy-to-read Bible experience powered by AI.\n\n• Audio Bible\nListen while reading with automatic chapter playback.\n\n• Comfortable Reading Experience\nClean and distraction-free design for focused reading.\n\n• Fast Search\nQuickly find verses and passages.\n\n• Bookmarks\nSave and revisit your favorite verses.\n\n• Ad-Free Option\nEnjoy the app without ads.\n\nStart your daily journey with the Word.",
-        "storeDescriptionKo": "루미 바이블은 AI 기반 번역과 오디오 기능을 제공하는 새로운 성경 앱입니다.\n\n읽기, 듣기, 그리고 이해까지\n더 쉽고 편리하게 성경을 경험하세요.\n\n주요 기능\n\n• AI 번역 성경\n자연스럽고 읽기 쉬운 번역으로 성경을 제공합니다.\n\n• 오디오 바이블\n성경을 들으면서 읽을 수 있습니다.\n자동으로 다음 장까지 이어서 재생됩니다.\n\n• 편안한 읽기 경험\n눈에 편안한 디자인으로 집중해서 읽을 수 있습니다.\n\n• 빠른 검색\n원하는 구절을 빠르게 찾을 수 있습니다.\n\n• 북마크\n중요한 말씀을 저장하고 다시 확인하세요.\n\n• 광고 제거 옵션\n광고 없이 더욱 쾌적하게 사용할 수 있습니다.\n\n매일 말씀과 함께하는 시간을 만들어보세요.",
-        "screenshots": ["./assets/images/screenshots/lumi-bible/01.jpg", "./assets/images/screenshots/lumi-bible/02.jpg", "./assets/images/screenshots/lumi-bible/03.jpg", "./assets/images/screenshots/lumi-bible/04.jpg", "./assets/images/screenshots/lumi-bible/05.jpg"],
-        "appStoreUrl": "https://apps.apple.com/app/lumi-bible-ai-translated/id6760752631",
-        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.lumibible"
+        "slug": "simpleurl",
+        "name": "SimpleURL",
+        "nameKo": "SimpleURL",
+        "icon": "🔗",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/91/06/b89106d5-701a-1809-c7f7-ca914f7b6e0c/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-85-220.png/512x512bb.jpg",
+        "description": "An iOS app to shorten long URLs and share them easily.",
+        "descriptionKo": "긴 URL을 짧게 만들어 공유할 수 있는 iOS 앱입니다.",
+        "storeDescription": "SimpleURL makes long links short, clean, and easy to share.\n\nInstantly shorten URLs using popular services including Bitly, TinyURL, is.gd, 1pt.co, ulvis.net, and cleanuri.com.\n\nGenerate QR codes automatically for your shortened links and quickly copy or share them anywhere.\n\nFeatures\n\n- Support for multiple URL shortening services\n- Instant QR code generation\n- Smart clipboard URL detection\n- One-click copy and share\n- Link history management\n- Clean and lightweight interface\n- Fast and simple workflow\n- No sign-up required\n\nPerfect for:\n- Sharing links in chats, emails, and social media\n- Creating QR codes for business cards, flyers, and presentations\n- Managing frequently used shortened URLs\n\nSimpleURL is designed for speed, simplicity, and convenience on iOS.",
+        "storeDescriptionKo": "SimpleURL은 긴 링크를 짧고 깔끔하게 만들어 쉽게 공유할 수 있게 해줍니다.\n\nBitly, TinyURL, is.gd, 1pt.co, ulvis.net, cleanuri.com 등 인기 단축 서비스를 사용해 URL을 즉시 단축할 수 있습니다.\n\n단축한 링크에 대한 QR 코드를 자동으로 생성하고, 빠르게 복사하거나 어디서든 공유하세요.\n\n주요 기능\n\n- 여러 URL 단축 서비스 지원\n- 즉시 QR 코드 생성\n- 스마트 클립보드 URL 감지\n- 원클릭 복사 및 공유\n- 링크 기록 관리\n- 깔끔하고 가벼운 인터페이스\n- 빠르고 간단한 워크플로\n- 회원가입 불필요\n\n이런 분께 적합합니다:\n- 채팅, 이메일, 소셜 미디어에서 링크 공유\n- 명함, 전단지, 프레젠테이션용 QR 코드 생성\n- 자주 사용하는 단축 URL 관리\n\nSimpleURL은 iOS에서 속도, 단순함, 편의를 위해 설계되었습니다.",
+        "screenshots": ["./assets/images/screenshots/simpleurl/01.jpg", "./assets/images/screenshots/simpleurl/02.jpg", "./assets/images/screenshots/simpleurl/03.jpg", "./assets/images/screenshots/simpleurl/04.jpg", "./assets/images/screenshots/simpleurl/05.jpg", "./assets/images/screenshots/simpleurl/06.jpg", "./assets/images/screenshots/simpleurl/07.jpg"],
+        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl/id492165840",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.simpleurl"
     },
     {
         "slug": "traittest",
@@ -96,6 +96,20 @@ const appsData = [
         "screenshots": ["./assets/images/screenshots/fortune-of-today/01.jpg", "./assets/images/screenshots/fortune-of-today/02.jpg", "./assets/images/screenshots/fortune-of-today/03.jpg", "./assets/images/screenshots/fortune-of-today/04.jpg", "./assets/images/screenshots/fortune-of-today/05.jpg"],
         "appStoreUrl": "https://apps.apple.com/app/fortune-of-today/id483993492",
         "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.fortuneoftoday"
+    },
+    {
+        "slug": "lumi-bible",
+        "name": "Lumi Bible - AI Translated",
+        "nameKo": "루미 바이블 - AI 번역",
+        "icon": "📖",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/dc/a1/55dca14a-7c7b-5599-5413-45110f3e5a90/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+        "description": "A modern Bible app with AI-powered translation and audio features. Read, listen, search fast, bookmark verses, and enjoy a clean reading experience.",
+        "descriptionKo": "AI 번역과 오디오 기능을 제공하는 성경 앱입니다. 읽기/듣기, 빠른 검색, 북마크, 깔끔한 읽기 화면을 지원합니다.",
+        "storeDescription": "Lumi AI Bible is a modern Bible app with AI-powered translation and audio features.\n\nRead, listen, and understand the Bible more easily.\n\nKey Features\n\n• AI Translated Bible\nEnjoy a natural and easy-to-read Bible experience powered by AI.\n\n• Audio Bible\nListen while reading with automatic chapter playback.\n\n• Comfortable Reading Experience\nClean and distraction-free design for focused reading.\n\n• Fast Search\nQuickly find verses and passages.\n\n• Bookmarks\nSave and revisit your favorite verses.\n\n• Ad-Free Option\nEnjoy the app without ads.\n\nStart your daily journey with the Word.",
+        "storeDescriptionKo": "루미 바이블은 AI 기반 번역과 오디오 기능을 제공하는 새로운 성경 앱입니다.\n\n읽기, 듣기, 그리고 이해까지\n더 쉽고 편리하게 성경을 경험하세요.\n\n주요 기능\n\n• AI 번역 성경\n자연스럽고 읽기 쉬운 번역으로 성경을 제공합니다.\n\n• 오디오 바이블\n성경을 들으면서 읽을 수 있습니다.\n자동으로 다음 장까지 이어서 재생됩니다.\n\n• 편안한 읽기 경험\n눈에 편안한 디자인으로 집중해서 읽을 수 있습니다.\n\n• 빠른 검색\n원하는 구절을 빠르게 찾을 수 있습니다.\n\n• 북마크\n중요한 말씀을 저장하고 다시 확인하세요.\n\n• 광고 제거 옵션\n광고 없이 더욱 쾌적하게 사용할 수 있습니다.\n\n매일 말씀과 함께하는 시간을 만들어보세요.",
+        "screenshots": ["./assets/images/screenshots/lumi-bible/01.jpg", "./assets/images/screenshots/lumi-bible/02.jpg", "./assets/images/screenshots/lumi-bible/03.jpg", "./assets/images/screenshots/lumi-bible/04.jpg", "./assets/images/screenshots/lumi-bible/05.jpg"],
+        "appStoreUrl": "https://apps.apple.com/app/lumi-bible-ai-translated/id6760752631",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.lumibible"
     },
     {
         "slug": "daily-quote-spark",
@@ -178,20 +192,6 @@ const appsData = [
         "appStoreUrl": "https://apps.apple.com/us/app/japanese-pick-today/id6756307057"
     },
     {
-        "slug": "simpleurl",
-        "name": "SimpleURL",
-        "nameKo": "SimpleURL",
-        "icon": "🔗",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/a7/07/55a70704-9c99-1938-c1aa-6331eea17127/Placeholder.mill/400x400bb.webp",
-        "description": "An iOS app to shorten long URLs and share them easily.",
-        "descriptionKo": "긴 URL을 짧게 만들어 공유할 수 있는 iOS 앱입니다.",
-        "storeDescription": "SimpleURL makes long links short, clean, and easy to share.\n\nInstantly shorten URLs using popular services including Bitly, TinyURL, is.gd, 1pt.co, ulvis.net, and cleanuri.com.\n\nGenerate QR codes automatically for your shortened links and quickly copy or share them anywhere.\n\nFeatures\n\n- Support for multiple URL shortening services\n- Instant QR code generation\n- Smart clipboard URL detection\n- One-click copy and share\n- Link history management\n- Clean and lightweight interface\n- Fast and simple workflow\n- No sign-up required\n\nPerfect for:\n- Sharing links in chats, emails, and social media\n- Creating QR codes for business cards, flyers, and presentations\n- Managing frequently used shortened URLs\n\nSimpleURL is designed for speed, simplicity, and convenience on iOS.",
-        "storeDescriptionKo": "SimpleURL은 긴 링크를 짧고 깔끔하게 만들어 쉽게 공유할 수 있게 해줍니다.\n\nBitly, TinyURL, is.gd, 1pt.co, ulvis.net, cleanuri.com 등 인기 단축 서비스를 사용해 URL을 즉시 단축할 수 있습니다.\n\n단축한 링크에 대한 QR 코드를 자동으로 생성하고, 빠르게 복사하거나 어디서든 공유하세요.\n\n주요 기능\n\n- 여러 URL 단축 서비스 지원\n- 즉시 QR 코드 생성\n- 스마트 클립보드 URL 감지\n- 원클릭 복사 및 공유\n- 링크 기록 관리\n- 깔끔하고 가벼운 인터페이스\n- 빠르고 간단한 워크플로\n- 회원가입 불필요\n\n이런 분께 적합합니다:\n- 채팅, 이메일, 소셜 미디어에서 링크 공유\n- 명함, 전단지, 프레젠테이션용 QR 코드 생성\n- 자주 사용하는 단축 URL 관리\n\nSimpleURL은 iOS에서 속도, 단순함, 편의를 위해 설계되었습니다.",
-        "screenshots": ["./assets/images/screenshots/simpleurl/01.jpg", "./assets/images/screenshots/simpleurl/02.jpg", "./assets/images/screenshots/simpleurl/03.jpg", "./assets/images/screenshots/simpleurl/04.jpg", "./assets/images/screenshots/simpleurl/05.jpg", "./assets/images/screenshots/simpleurl/06.jpg", "./assets/images/screenshots/simpleurl/07.jpg"],
-        "appStoreUrl": "https://apps.apple.com/us/app/simpleurl/id492165840",
-        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.simpleurl"
-    },
-    {
         "slug": "baking-helper",
         "name": "Baking Helper",
         "nameKo": "베이킹 도우미",
@@ -210,7 +210,7 @@ const appsData = [
         "name": "SimpleURL - URL Shortener",
         "nameKo": "SimpleURL - URL Shortener",
         "icon": "🔗",
-        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ec/a0/ff/eca0ff53-3525-b679-f21a-c2d014637937/Placeholder.mill/400x400bb.webp",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/e2/98/bde298b6-8c99-7e79-f74a-c9b41c7add17/AppIcon-0-0-85-220-0-0-5-0-2x.png/512x512bb.png",
         "description": "A macOS app for URL shortening and QR code generation.",
         "descriptionKo": "URL 단축 및 QR 코드 생성 macOS 앱입니다.",
         "storeDescription": "SimpleURL makes it easy to shorten long web links and instantly generate QR codes for quick sharing.\n• Instantly shorten any URL with a single click\n• Create QR codes for your shortened links for easy sharing\n• Copy shortened URLs and QR codes to the clipboard with one click\n• View and manage your recent shortened URLs in a convenient history table\n• No ads, no tracking, no sign-up required\n• Simple, intuitive macOS interface designed for speed\n\nPerfect for:\n• Sharing long URLs over chat or email\n• Printing QR codes for event flyers, business cards, or presentations\n• Keeping your links organized and easily accessible\n\nWhy SimpleURL?\n• Super fast and lightweight\n• Focused on privacy – your URLs never leave your Mac except for shortening\n• No hidden costs – basic features are completely free\n\nTry SimpleURL today and experience the fastest way to shorten, copy, and share your links on macOS!",
