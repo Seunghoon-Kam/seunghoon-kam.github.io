@@ -39,14 +39,12 @@
                 <section class="apps-grid">
                     <div 
                         v-for="app in appsData" 
-                        :key="app.appStoreUrl || app.name"
-                        class="app-card"
-                        :class="{ 'clickable': app.appStoreUrl || app.playStoreUrl }"
+                        :key="app.slug"
+                        class="app-card clickable"
                         @click="handleCardClick(app, $event)"
                     >
                         <a 
-                            :href="app.appStoreUrl || '#'" 
-                            :target="app.appStoreUrl ? '_blank' : ''"
+                            :href="getAppDetailUrl(app)" 
                             class="app-icon-link"
                             @click.stop
                         >
@@ -94,6 +92,8 @@
         </footer>
     </div>
 
+    <script src="./assets/js/apps-data.js"></script>
+    <script src="./assets/js/app-utils.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>

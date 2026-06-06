@@ -6,36 +6,41 @@ const { createApp } = Vue;
 
 createApp({
     data() {
+        const slug = getAppSlugFromUrl();
+        const app = slug ? getAppBySlug(slug) : null;
+
         return {
             currentLang: getLanguage(),
             translations: translations,
-            appsData: appsData
+            app: app
         };
+    },
+    computed: {
+        appName() {
+            return this.app ? getAppName(this.app, this.currentLang) : '';
+        },
+        appDescription() {
+            return this.app ? getAppDescription(this.app, this.currentLang) : '';
+        },
+        pageTitle() {
+            if (this.app) {
+                return `${this.appName} - Kevin Kam`;
+            }
+            return `${this.translations[this.currentLang].appNotFound} - Kevin Kam`;
+        }
     },
     mounted() {
         document.documentElement.lang = this.currentLang;
+        document.title = this.pageTitle;
     },
     methods: {
-        getAppName(app) {
-            return getAppName(app, this.currentLang);
-        },
-        getAppDescription(app) {
-            return getAppDescription(app, this.currentLang);
-        },
         getAppStoreLabel(app) {
             return getAppStoreLabel(app);
         },
-        getAppDetailUrl(app) {
-            return getAppDetailUrl(app);
-        },
-        handleCardClick(app, event) {
-            if (event.target.closest('.btn, .app-links')) {
-                return;
+        handleImageError(event) {
+            if (this.app) {
+                handleImageError(event, this.app, this.currentLang);
             }
-            window.location.href = getAppDetailUrl(app);
-        },
-        handleImageError(event, app) {
-            handleImageError(event, app, this.currentLang);
         }
     }
 }).mount('#app');

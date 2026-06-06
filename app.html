@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App - Kevin Kam</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header class="detail-header">
+            <div class="container">
+                <a href="./index.html" class="back-link">&larr; {{ translations[currentLang].backToApps }}</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <section v-if="app" class="app-detail">
+                    <div class="app-detail-icon">
+                        <img
+                            v-if="app.appIconUrl"
+                            :src="app.appIconUrl"
+                            :alt="appName + ' icon'"
+                            class="app-detail-icon-img"
+                            @error="handleImageError($event)"
+                        />
+                        <span v-else class="app-icon-fallback app-detail-icon-fallback">{{ app.icon || appName.charAt(0).toUpperCase() }}</span>
+                    </div>
+                    <h1>{{ appName }}</h1>
+                    <p class="app-detail-description">{{ appDescription }}</p>
+                    <div class="app-detail-links">
+                        <a
+                            v-if="app.appStoreUrl"
+                            :href="app.appStoreUrl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary btn-lg"
+                        >
+                            {{ getAppStoreLabel(app) }}
+                        </a>
+                        <a
+                            v-if="app.playStoreUrl"
+                            :href="app.playStoreUrl"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-primary btn-lg"
+                        >
+                            Android
+                        </a>
+                    </div>
+                </section>
+
+                <section v-else class="app-not-found">
+                    <h1>{{ translations[currentLang].appNotFound }}</h1>
+                    <p>{{ translations[currentLang].appNotFoundMessage }}</p>
+                    <a href="./index.html" class="btn btn-primary">{{ translations[currentLang].backToApps }}</a>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Kevin Kam. All rights reserved.</p>
+                <p class="contact">Contact: <a href="mailto:rka777@gmail.com">rka777@gmail.com</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/js/apps-data.js"></script>
+    <script src="./assets/js/app-utils.js"></script>
+    <script src="./assets/js/app-detail.js"></script>
+</body>
+</html>
