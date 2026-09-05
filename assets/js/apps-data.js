@@ -1,5 +1,18 @@
 const appsData = [
     {
+        "slug": "croc-roulette",
+        "name": "Croc Roulette - Bite of Luck",
+        "nameKo": "악어 룰렛 - 복불복 한 판",
+        "icon": "🐊",
+        "appIconUrl": "https://play-lh.googleusercontent.com/gwGktjtt7p72JFwHih9JqPtJEvvA-TXRLZ1zEN3kpx3Pz5RglG_6McRnW6Ls9WBK1TaHdG2vsiyl0xe82o26uEY=w512-h512",
+        "description": "A quick party game for two or more players. Take turns pressing the crocodile's teeth—pick the wrong one and get chomped.",
+        "descriptionKo": "두 명 이상이 즐기는 짧은 복불복 파티 게임입니다. 차례로 악어 이빨을 누르고, 잘못된 이빨을 고르면 물려요.",
+        "storeDescription": "Which tooth is safe… and which one bites?\n\nCroc Roulette is a quick party game for two or more players. Take turns pressing the crocodile's teeth and testing your luck. Choose the wrong tooth and—CHOMP!—the crocodile bites.\n\nHOW TO PLAY\n• Gather two or more players\n• Take turns choosing one tooth\n• Pass the challenge to the next player\n• Laugh when someone gets chomped\n\nPERFECT FOR\n• Parties and get-togethers\n• Quick dares with friends and family\n• Anyone who enjoys simple luck-based games\n\nFeatures sound effects, vibration feedback, language options, and optional ad-free play. Open the jaws, take your chance, and find out who gets the bite.",
+        "storeDescriptionKo": "어떤 이빨은 안전하고… 어떤 이빨은 물어요!\n\nCroc Roulette은 두 명 이상이 함께 즐기는 짧고 짜릿한 복불복 파티 게임입니다. 차례로 악어 이빨을 누르며 운을 시험하고, 잘못된 이빨을 고르면—쩝!—악어에게 물립니다.\n\n플레이 방법\n• 두 명 이상 모이세요\n• 차례대로 이빨 하나를 고르세요\n• 다음 사람에게 긴장감 넘치는 차례를 넘기세요\n• 누가 물릴지 지켜보며 웃어보세요\n\n이런 분께 추천\n• 친구·가족 모임에서 즐길 게임을 찾는 분\n• 파티에서 내기·벌칙 게임을 하고 싶은 분\n• 간단하면서 긴장감 있는 운빨 게임을 좋아하는 분\n\n효과음, 진동, 다국어, 광고 제거 옵션을 지원합니다. 악어 입을 벌리고 운을 시험해 보세요. 이번에는 누가 물릴까요?",
+        "screenshots": ["./assets/images/screenshots/croc-roulette/01.jpg", "./assets/images/screenshots/croc-roulette/02.jpg", "./assets/images/screenshots/croc-roulette/03.jpg"],
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.crocroulette"
+    },
+    {
         "slug": "pictogrid",
         "name": "PictoGrid - Nonogram",
         "nameKo": "픽토그리드 - 노노그램",
