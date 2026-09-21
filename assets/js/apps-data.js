@@ -1,5 +1,19 @@
 const appsData = [
     {
+        "slug": "noisesnap",
+        "name": "NoiseSnap - Noise Meter",
+        "nameKo": "노이즈 스냅 - 소음 측정기",
+        "icon": "🔊",
+        "appIconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a0/02/67/a002679c-734b-d2ee-105f-dfc7fde751e1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+        "description": "Estimate ambient noise from your device mic. Live dB readings stay on device—for reference only, not a certified meter.",
+        "descriptionKo": "기기 마이크로 주변 소음을 추정하는 앱입니다. 측정값은 기기에만 남으며 참고용으로, 인증 소음계가 아닙니다.",
+        "storeDescription": "NoiseSnap estimates ambient noise from the device microphone. Measurement data stays on this device. Audio recordings are saved only when you enable recording in Settings, and remain on this device only.\n\nValues are for reference only and are not a certified sound level meter. Do not use them for medical or safety decisions.\n\nAccuracy can be affected by phone cases, wind, covering the mic, Bluetooth headsets, and device orientation. Microphone access is used to compute live decibel estimates and, if enabled, to save a local recording.\n\nNoise threshold exceeded — Reduce exposure or move to a quieter area.\n\nRelative analysis — not A-weighted (not dBA).\n\nRecent seconds in memory only — relative log scale, not dBA.\n\nSaves a local WAV with the session. Off by default. Never uploaded.",
+        "storeDescriptionKo": "NoiseSnap은 기기 마이크로 주변 소음을 추정합니다. 측정 데이터는 이 기기에 남습니다. 오디오 녹음은 설정에서 켠 경우에만 저장되며, 이 기기에만 보관됩니다.\n\n값은 참고용이며 인증된 소음계가 아닙니다. 의료·안전 판단에 사용하지 마세요.\n\n케이스, 바람, 마이크 가림, Bluetooth 헤드셋, 기기 방향에 따라 정확도가 달라질 수 있습니다. 마이크는 실시간 데시벨 추정과(켠 경우) 로컬 녹음에 사용됩니다.\n\n소음 기준 초과 — 노출을 줄이거나 더 조용한 곳으로 이동하세요.\n\n상대 분석입니다. A가중치(dBA)가 아닙니다.\n\n최근 구간만 메모리에 표시합니다. 상대 로그 스케일이며 dBA가 아닙니다.\n\n세션과 함께 기기에 WAV를 저장합니다. 기본값은 끄기이며 업로드하지 않습니다.",
+        "screenshots": ["./assets/images/screenshots/noisesnap/01.jpg", "./assets/images/screenshots/noisesnap/02.jpg", "./assets/images/screenshots/noisesnap/03.jpg"],
+        "appStoreUrl": "https://apps.apple.com/us/app/noisesnap-noise-meter/id6761031366",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.noisesnap"
+    },
+    {
         "slug": "croc-roulette",
         "name": "Croc Roulette - Bite of Luck",
         "nameKo": "악어 룰렛 - 복불복 한 판",
