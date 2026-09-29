@@ -1,5 +1,18 @@
 const appsData = [
     {
+        "slug": "spinimo",
+        "name": "Spinimo - Decision Wheel",
+        "nameKo": "Spinimo - 돌림판",
+        "icon": "🎡",
+        "appIconUrl": "https://play-lh.googleusercontent.com/UnP-U-4opI1FJDs456p7BJIXdDykrA1qVKi8XKqUdccDK0bHYaNHWeWYdgXUxFRo8edORZU01Cm3dKlRA3iKEQk=w512-h512",
+        "description": "Random picker for names, meals, and teams. Add options, spin the wheel, and get a fair random result—offline, no account needed.",
+        "descriptionKo": "랜덤 돌림판으로 메뉴와 순서를 정해요. 항목을 추가하고 돌리면 모든 항목이 같은 확률로 뽑히며, 계정 없이 오프라인에서도 사용할 수 있습니다.",
+        "storeDescription": "Spinimo makes everyday decisions simple. Add options, spin the wheel, and get a random result. Every option has an equal chance.\n\nUse it to choose meals, assign chores, set turn order, or add fun to games and parties.\n\nYour wheels stay on your device and work offline without an account.\n\nEdit options, save custom wheels, remove a winner and spin again, back up or restore with JSON, and enjoy sound, haptics, and dark mode.",
+        "storeDescriptionKo": "결정이 필요할 때 Spinimo 돌림판에 항목을 추가하고 돌려 보세요. 모든 항목에 같은 확률이 적용된 결과를 보여줍니다.\n\n식사 메뉴를 고르거나 집안일과 순서를 정하고, 게임이나 모임에서도 활용할 수 있어요.\n\n저장한 돌림판은 기기에 보관되며 계정 없이 오프라인에서도 사용할 수 있습니다.\n\n항목 편집, 당첨 항목 제외 후 재추첨, 나만의 돌림판 저장, JSON 백업·복원, 효과음·햅틱·다크 모드를 지원합니다.",
+        "screenshots": ["./assets/images/screenshots/spinimo/01.jpg", "./assets/images/screenshots/spinimo/02.jpg", "./assets/images/screenshots/spinimo/03.jpg", "./assets/images/screenshots/spinimo/04.jpg"],
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.spinimo"
+    },
+    {
         "slug": "noisesnap",
         "name": "NoiseSnap - Noise Meter",
         "nameKo": "노이즈 스냅 - 소음 측정기",
