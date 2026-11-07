@@ -1,5 +1,18 @@
 const appsData = [
     {
+        "slug": "arrow-escape",
+        "name": "Arrow Escape - Tap Away Puzzle",
+        "nameKo": "Arrow Escape - 화살 탈출 퍼즐",
+        "icon": "➡️",
+        "appIconUrl": "https://play-lh.googleusercontent.com/vqUQLi3CS_aN0sqTgFhJaTxbhK8SEo6QatgdMjQwkY50FEelBY8tcPYcair8TiuZpHxSI2XnpcXN6Ffqhjz4dMg=w512-h512",
+        "description": "Tap arrows in order, clear the board, and solve relaxing logic puzzles.",
+        "descriptionKo": "화살을 순서대로 눌러 보드를 비우고 다양한 두뇌 퍼즐에 도전하세요.",
+        "storeDescription": "Tap arrows in the right order and clear the board in Arrow Escape. Each arrow follows its direction, so look ahead and choose a clear path before you move.\n\nPlan your moves, untangle the board, and take on stages across different difficulty levels. Stuck? Use a hint to find your next move.\n\n• Tap arrows to send them off the board\n• Think ahead and avoid blocked paths\n• Explore stages with different challenges\n• Use hints when you need a helping hand\n\nFind the right order, clear every arrow, and enjoy a satisfying logic puzzle at your own pace.",
+        "storeDescriptionKo": "Arrow Escape에서 화살표를 올바른 순서로 눌러 보드를 비워 보세요. 화살표는 가리키는 방향으로 움직이므로 앞길을 살피고 한 수 앞을 생각해야 합니다.\n\n막힌 경로를 피하며 얽힌 화살표를 하나씩 정리하고, 다양한 난이도의 스테이지에 도전하세요. 다음 수가 떠오르지 않을 때는 힌트가 도움이 됩니다.\n\n• 화살표를 눌러 보드 밖으로 보내기\n• 이동할 순서를 생각하고 막힌 길 피하기\n• 다양한 난이도의 스테이지 즐기기\n• 막힐 때 힌트로 다음 수 찾기\n\n나만의 속도로 차근차근 생각하며 마지막 화살표까지 깔끔하게 지워 보세요.",
+        "screenshots": ["./assets/images/screenshots/arrow-escape/01.jpg", "./assets/images/screenshots/arrow-escape/02.jpg", "./assets/images/screenshots/arrow-escape/03.jpg", "./assets/images/screenshots/arrow-escape/04.jpg"],
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.arrowpaths"
+    },
+    {
         "slug": "spinimo",
         "name": "Spinimo - Decision Wheel",
         "nameKo": "Spinimo - 돌림판",
