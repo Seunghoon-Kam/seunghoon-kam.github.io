@@ -1,5 +1,18 @@
 const appsData = [
     {
+        "slug": "pirate-roulette",
+        "name": "Pirate Roulette Mobile",
+        "nameKo": "해적 룰렛 모바일",
+        "icon": "🏴‍☠️",
+        "appIconUrl": "https://play-lh.googleusercontent.com/UM6YOFOMgrUqPLWS8qsjNjilx1yXtZIOXlcOgiRYDDnI4GkWR1U9Ogti2LUIXTAPoWtsuVF1NsLh2sFWZua0pQ=w512-h512",
+        "description": "Pass the phone and pick a slot. Whose sword will make the pirate pop?",
+        "descriptionKo": "친구에게 휴대폰을 건네고 빈칸에 칼을 꽂아 보세요. 누구 차례에 해적이 튀어 오를까요?",
+        "storeDescription": "Swipe to turn the barrel and tap an empty slot to slide in a sword. Safe this time? Hand the phone to the next player. One hidden slot sends the pirate flying and ends the round.\n\nChoose 15 slots for a quick game, stick with the classic 24 or try 30 to draw out the suspense. Switch sound effects and vibration on or off in Settings.",
+        "storeDescriptionKo": "손가락으로 통을 돌려 마음에 드는 칸을 고르세요. 칼을 꽂아도 해적이 그대로라면 다음 사람 차례! 매 라운드 숨겨진 한 칸을 건드리는 순간 해적이 날아오릅니다.\n\n짧게 한 판 즐길 땐 15칸, 익숙한 통으로 놀 땐 24칸, 긴장감을 더하고 싶을 땐 30칸을 골라 보세요. 효과음과 진동은 설정에서 각각 끄거나 켤 수 있어요.",
+        "screenshots": ["./assets/images/screenshots/pirate-roulette/01.jpg", "./assets/images/screenshots/pirate-roulette/02.jpg", "./assets/images/screenshots/pirate-roulette/03.jpg"],
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=kam.app.pirateroulettemobile"
+    },
+    {
         "slug": "arrow-escape",
         "name": "Arrow Escape - Tap Away Puzzle",
         "nameKo": "Arrow Escape - 화살 탈출 퍼즐",
